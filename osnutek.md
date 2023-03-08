@@ -1,4 +1,4 @@
-#Naslov projekta: Analiza podatkov o prometnih nesrecah v Sloveniji
+# Naslov projekta: Analiza podatkov o prometnih nesrecah v Sloveniji
 
 Opis problema: Prometne nesrece predstavljajo pomemben druzbeni problem, saj lahko povzrodijo veliko materialno $kodo, poskodbe ali celo smrt. Namen tega projekta je analizirati podatke o prometnih nesrecah v Sloveniji, da bi lahko identificirali vorce, trende in dejavnike tveganja ter razvili smernice za izbolisanje varnosti na cestah.
 
