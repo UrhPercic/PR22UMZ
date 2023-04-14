@@ -8,6 +8,7 @@ Cilji/vprasanja:
 3. Kako se stevilo prometnih nesrec spreminja skozi cas?
 4. Kako se razlikujejo prometne nesrece glede na regijo, v kateri se zgodijo?
 5. Kaksna je povezava med razlicnimi dejavniki tveganja (npr. alkohol, prekoractev hitrosti, slaba vidljivost) in verjetnostjo prometne nesrece?
+6. Kako se razlikujejo posledice prometnih nesrec glede na dejavnike tveganja in udelezence v prometu?
 
 Vir in oblika podatkov:
 Podatki bodo zajeti iz spletne strani OPSI (https://podatki.gov.si/dataset/mnzpprometne-nesrece-od-leta-2009-dalje), kjer so na voljo podatki o prometnih nesrecah v Sloveniji za obdobje 2009-2022. Podatki so v obliki CSV datotek, ki vsebujejo podrobne informacije o zaporedni stevilki PN, klasifikaciji PN, datumu PN, uri PN, lokaciji, vrsti ceste naselja, vzroku nesrece, tipu nesrece, vremenskih okoliscinah, stanju prometa, stanju vozisca in drugi relevantni dejavniki.
