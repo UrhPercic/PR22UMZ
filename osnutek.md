@@ -6,7 +6,7 @@ Cilji/vprasanja:
 1. Kateri so najpogostejsi vroki prometnih nesrec v Sloveniji?
 2. Kateri so najbolj ogrozeni udelezenci v prometu?
 3. Kako se stevilo prometnih nesrec spreminja skozi cas?
-4. Kako se razlikujejo prometne nesrece glede na regijo, v kateri se zgodijo?
+4. Analiza specifičnih vrst nesreč: Nabor podatkov vključuje informacije o vrsti nesreče, tako da je mogoče analizirati, katere vrste nesreč so najpogostejše, katere so najbolj nevarne in kateri dejavniki prispevajo k njim.
 5. Kaksna je povezava med razlicnimi dejavniki tveganja (npr. alkohol, prekoractev hitrosti, slaba vidljivost) in verjetnostjo prometne nesrece?
 6. Kako se razlikujejo posledice prometnih nesrec glede na dejavnike tveganja in udelezence v prometu?
 
