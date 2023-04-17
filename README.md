@@ -20,6 +20,11 @@ Spraševali smo se, kako se število nesreč spreminja skozi čas kjer smo vzeli
 
 ![image](https://user-images.githubusercontent.com/125819680/232486704-217a806c-8398-4e4e-8ae6-5fb1b05ae92d.png)
 
+Ugotovili smo tudi, da se čez poleten čas se nesreče dogajajo zaradi neupoštevanja pravil prednosti, med tem, ko se pozimi dogajajo zaradi neprilagojene hitrosti.
+
+![image](https://user-images.githubusercontent.com/125819680/232504617-90d88b4f-3c9a-4b22-8d77-a67f1b8a9e02.png)
+
+
 Spraševali smo se katere vrste nesreč so najpogostejše, katere so najbolj nevarne in kateri dejavniki prispevajo k njim. Podatke smo grupirali po vzroku nesreče in potem po posledici nesreče. Ugotovili smo, da se večina nesreč konča z materialno škodo, zaradi neustreznih premikov s vozilom. Največ smrti in resnih telesnih poškodb pa so posledice prehitre vožnje.
 
 ![image](https://user-images.githubusercontent.com/125819680/232487195-e5c5a0f4-1696-406a-a66a-f4734cfb2a4d.png)
