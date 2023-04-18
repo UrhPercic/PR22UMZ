@@ -46,3 +46,21 @@ Ugotovili smo tudi, da se čez poleten čas se nesreče dogajajo zaradi neupošt
 Spraševali smo se katere vrste nesreč so najpogostejše, katere so najbolj nevarne in kateri dejavniki prispevajo k njim. Podatke smo grupirali po vzroku nesreče in potem po posledici nesreče. Ugotovili smo, da se večina nesreč konča z materialno škodo, zaradi neustreznih premikov s vozilom. Največ smrti in resnih telesnih poškodb pa so posledice prehitre vožnje.
 
 ![image](https://user-images.githubusercontent.com/125819680/232487195-e5c5a0f4-1696-406a-a66a-f4734cfb2a4d.png)
+
+
+Ugotavljali smo tudi vpliv alkohola na nesreče glede na preteklo prisotnost alkohola pri nesrečah, kjer opazimo, da je relativno majhen procent nesreč pod vplivom alkohola.
+
+<img width="866" alt="Screenshot 2023-04-18 at 18 24 47" src="https://user-images.githubusercontent.com/126070502/232864917-a6a340f3-5a53-49ea-8f26-3f3bd9169d01.png">
+
+Pregledovali so tudi povezavo vozne podlage z pogostostjo nesreč.
+
+<img width="918" alt="Screenshot 2023-04-18 at 19 00 28" src="https://user-images.githubusercontent.com/126070502/232865297-056fe2fa-9e03-4c3b-8f0a-96f33cc3976a.png">
+
+Pri opazovanju nesreč glede na stanje cestišča presenetljivo ugototivmo da se večino nesreč zgodi na suhih cestah.
+
+<img width="967" alt="Screenshot 2023-04-18 at 19 50 25" src="https://user-images.githubusercontent.com/126070502/232865466-995838a0-4658-4680-8926-41324259b38a.png">
+
+Za promet pa smo ugotovili da ne vliva veliko na verjetnost nesreče, saj je relativno dobro razporejeno čez vse kategorije.
+
+<img width="788" alt="Screenshot 2023-04-18 at 20 01 15" src="https://user-images.githubusercontent.com/126070502/232865626-54da58ed-a544-4c40-858f-b40b62bf6d79.png">
+
