@@ -90,3 +90,141 @@ def nesrece_vzroki():
     plt.show()
 
 vzroki_skozi_cas()
+
+
+import csv
+import matplotlib.pyplot as plt
+
+datoteke = ["pn2009", "pn2010", "pn2011", "pn2012", "pn2013", "pn2014", "pn2015", "pn2016", "pn2017", "pn2018", "pn2019", "pn2020", "pn2021", "pn2022"]
+
+
+def najPogostejsiVzrokiPN():
+
+    vzrokNesrece = {}
+
+    for datoteka in datoteke:
+        with open(f'C:\\Users\\zakdo\\Documents\\FAKULTETA\\FRI\\3.Letnik\\Podatkovno rudarjenje\\Prometne nesrece\\{datoteka}.csv', 'r') as file:
+            csv_reader = csv.reader(file)
+            zaporednostDogodka = {}
+            next(csv_reader)
+
+            for row in csv_reader:
+                row_split = (row[0] + row[1]).split(";")
+                zaporednost = row_split[0]
+
+                if not zaporednost in zaporednostDogodka:
+                    zaporednostDogodka[zaporednost] = 1
+                    row_split = (row[0] + row[1]).split(";")
+                    bumbum = row_split[14]
+
+                    if bumbum not in vzrokNesrece:
+                        vzrokNesrece[bumbum] = 1
+                    else:
+                        vzrokNesrece[bumbum] += 1
+
+    sortiranVzrokNesrece = dict(sorted(vzrokNesrece.items(), key=lambda x: x[1], reverse=True)[:10])
+    vzroki = list(sortiranVzrokNesrece.keys())
+    stevila = list(sortiranVzrokNesrece.values())
+
+    plt.figure(figsize=(6, 6))
+    plt.bar(vzroki, stevila)
+    plt.xlabel('Vzrok')
+    plt.ylabel('Število Nesreč (2009 - 2022)')
+    plt.title('Najpogostejšji Vzroki Nesreč')
+    plt.xticks(rotation=45, ha='right', fontsize=6)
+    plt.show()
+
+def najboljOgrozeniUdelezenciVPrometu():
+
+    def starost():
+        starosti = {(i, i + 4): None for i in range(0, 100 + 1, 5)}
+        for datoteka in datoteke:
+            with open(f'C:\\Users\\zakdo\\Documents\\FAKULTETA\\FRI\\3.Letnik\\Podatkovno rudarjenje\\Prometne nesrece\\{datoteka}.csv', 'r') as file:
+                csv_reader = csv.reader(file)
+                next(csv_reader)
+
+                for row in csv_reader:
+                    row_split = (row[0] + row[1]).split(";")
+                    starost = int(row_split[24])  # starost
+
+                    # Iterate through the dictionary keys and check if the number falls within any interval
+                    for key in starosti.keys():
+                        if key[0] <= starost <= key[1]:
+                            value = starosti.get(key, 0)
+                            starosti[key] = value + 1 if value is not None else 1
+                            break
+
+
+        sorted_dict = dict(sorted(starosti.items(), key=lambda x: x[1], reverse=True))
+
+        top_10_keys = [str(key) for key in list(sorted_dict.keys())[:10]]
+        top_10_values = list(sorted_dict.values())[:10]
+
+        plt.bar(top_10_keys, top_10_values)
+        plt.xlabel('Intervali let')
+        plt.ylabel('Število nesreč (2009 - 2022)')
+        plt.title('Največji ogroženci v prometu po starosti')
+        plt.show()
+
+    def spol():
+
+        spola = {"moski": 0, "zenska": 0}
+
+        for datoteka in datoteke:
+            with open(f'C:\\Users\\zakdo\\Documents\\FAKULTETA\\FRI\\3.Letnik\\Podatkovno rudarjenje\\Prometne nesrece\\{datoteka}.csv', 'r') as file:
+                csv_reader = csv.reader(file)
+                next(csv_reader)
+
+                for row in csv_reader:
+                    row_split = (row[0] + row[1]).split(";")
+                    spol = row_split[25]  # spol
+
+                    if spol == "ŽENSKI":
+                        spola["moski"] += 1
+                    elif spol == "MOŠKI":
+                        spola["zenska"] += 1
+
+        plt.bar(spola.keys(), spola.values())
+        plt.xlabel('Spol')
+        plt.ylabel('Število nesreč')
+        plt.title('Število nesreč glede na spol')
+        plt.show()
+
+    def prevoznoSredstvo():
+
+        prevozno_sredstvo = {}
+
+        for datoteka in datoteke:
+            with open(f'C:\\Users\\zakdo\\Documents\\FAKULTETA\\FRI\\3.Letnik\\Podatkovno rudarjenje\\Prometne nesrece\\{datoteka}.csv', 'r') as file:
+                csv_reader = csv.reader(file)
+                next(csv_reader)
+
+                for row in csv_reader:
+                    row_split = (row[0] + row[1]).split(";")
+                    vrstaUde = row_split[29]
+
+                    if vrstaUde not in prevozno_sredstvo:
+                        prevozno_sredstvo[vrstaUde] = 0
+                    else:
+                        prevozno_sredstvo[vrstaUde] += 1
+
+        sortiran_prevozno_sredstvo = dict(sorted(prevozno_sredstvo.items(), key=lambda x: x[1], reverse=True)[:10])
+        prevoz = list(sortiran_prevozno_sredstvo.keys())
+        stevila = list(sortiran_prevozno_sredstvo.values())
+
+        plt.figure(figsize=(6, 6))
+        plt.bar(prevoz, stevila)
+        plt.xlabel('Vrsta udeleženca')
+        plt.ylabel('Število Nesreč (2009 - 2022)')
+        plt.title('Število nesreč glede na vrsto udeleženca')
+        plt.xticks(rotation=45, ha='right', fontsize=6)
+        plt.show()
+
+    starost()
+    spol()
+    prevoznoSredstvo()
+
+
+
+
+
