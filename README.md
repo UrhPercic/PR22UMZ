@@ -16,7 +16,26 @@ Podatki so bili zajeti iz spletne strani OPSI (https://podatki.gov.si/dataset/mn
 
 Analiza podatkov je potekala po oblikovanih ciljih, kjer smo z ustreznimi vizualizacijskimi orodi prikazali ugotovitve ciljev.
 
-Spraševali smo se, kako se število nesreč spreminja skozi čas kjer smo vzeli CSV datoteke nesreč od 2009-2021. Podatke o nesrečah smo združevali po mesecih. Ugotovili smo, da se nesreče večkrat pojavljajo poleti. 
+1. Zanimalo nas je, kateri so najpogostejši vzroki za nastanek prometne nesreče. Ugotovili smo, da so to premiki z vozilom, neprilagojena hitrost in neupoštevanja pravil o prednosti.
+
+![Top 10 vzrokov nesrec](https://user-images.githubusercontent.com/56612694/232814758-0d2b1ba5-52b8-40a0-b777-ccbec0b12e8b.png)
+
+2.1. Ugotovili smo, da so največji ogroženci v prometu po starosti med 25 in 29 let, med 30 in 34 ter med 20 in 24. Glede na raziskavo bi lahko rekli, da so največji
+udeleženci prometnih nesreč med starostjo 20 in 34 let.
+
+![NajOgrozenciStarost](https://user-images.githubusercontent.com/56612694/232814913-0c376f3b-fb47-4b09-b323-09102f905170.png)
+
+2.2. Ugotiili smo, da je za skoraj polovico več udeležencev v prometnih nesrečah v Sloveniji med letom 2009 in 2022 bilo ženskega spola.
+
+![NajOgrozenciSpol](https://user-images.githubusercontent.com/56612694/232814977-f073b1e6-81b7-4b42-91f4-c7b57e3f0f87.png)
+
+2.3. Glede na vrsto udeležencev v prometnih nesrečah je bilo daleč največ udeležencev v voznikov osebnih avtomobilov, voznikov tovornih vozil ter potnikov.
+
+![NajOgrozenciVrstaUdel](https://user-images.githubusercontent.com/56612694/232815058-ca73975e-1829-461e-ba69-14c6beabedcf.png)
+
+
+Spraševali smo se, kako se število nesreč spreminja skozi
+i čas kjer smo vzeli CSV datoteke nesreč od 2009-2021. Podatke o nesrečah smo združevali po mesecih. Ugotovili smo, da se nesreče večkrat pojavljajo poleti. 
 
 ![image](https://user-images.githubusercontent.com/125819680/232486704-217a806c-8398-4e4e-8ae6-5fb1b05ae92d.png)
 
