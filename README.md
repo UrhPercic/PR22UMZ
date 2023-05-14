@@ -18,8 +18,9 @@ Analiza podatkov je potekala po oblikovanih ciljih, kjer smo z ustreznimi vizual
 Raziskava prometnih nesreč v Sloveniji med leti 2009 in 2022 je temeljila na analizi zbranih podatkov.
 
 V raziskavi so bili analizirani vzroki prometnih nesreč, udeleženci nesreč in njihove starostne skupine ter različne vrste udeležencev v prometu. Podrobna analiza podatkov je razkrila, da so najpogostejši vzroki nesreč premik z vozilom, neprilagojena hitrost, nepravilna smer vožnje, neupoštevanje pravil prednosti in neustrezna varnostna razdalja.
+
 1. Zanimalo nas je, kateri so najpogostejši vzroki za nastanek prometne nesreče. Najpogostejši vzrok nesreče je bil premik z vozilom, ki je prispeval k 25% vseh nesreč. Ta vzrok je lahko povezan s preveliko hitrostjo, neupoštevanjem pravil prednosti, neustrezno varnostno razdaljo ali nepravilno smerjo vožnje. Neprilagojena hitrost je bila drugi najpogostejši vzrok (18%), kar lahko nakazuje na prehitro in nevarno vožnjo ter pomanjkanje spoštovanja cestnih predpisov. Na tretjem mestu je bila nepravilna smer vožnje (16%), kar kaže na potrebo po večjem poznavanju prometnih predpisov in pravilne uporabe cest. Neupoštevanje pravil prednosti (15%) in neustrezna varnostna razdalja (11%) sta prav tako pogosti vzroki, ki lahko kažejo na slabo poznavanje cestnih predpisov in nespoštovanje drugih udeležencev v prometu.
-[Top 10 vzrokov nesrec](https://github.com/UrhPercic/PR22UMZ/assets/56612694/81e0529d-53c9-4cdc-8622-d98da0bbffcb)
+![Top 10 vzrokov nesrec](https://github.com/UrhPercic/PR22UMZ/assets/56612694/81e0529d-53c9-4cdc-8622-d98da0bbffcb)
 
 
 Nadaljnja analiza podatkov je pokazala, da so najpogostejši povzročitelji prometnih nesreč stari med 19 in 33 leti, najpogostejši udeleženci pa so stari med 19 in 48 let. Moški so se v nesreče vpleli dvakrat pogosteje kot ženske. Osebni avtomobili so bili daleč najpogostejša vrsta udeležencev v nesrečah, nato vozila tovornjakov, potniki, kolesarji in vozniki motornih koles.
