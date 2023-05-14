@@ -20,13 +20,13 @@ Analiza podatkov je potekala po oblikovanih ciljih, kjer smo z ustreznimi vizual
 ![Top 10 vzrokov nesrec](https://user-images.githubusercontent.com/56612694/232814758-0d2b1ba5-52b8-40a0-b777-ccbec0b12e8b.png)
 
 2.1. Ugotovili smo, da so največji ogroženci v prometu po starosti med 25 in 29 let, med 30 in 34 ter med 20 in 24. Glede na raziskavo bi lahko rekli, da so največji
-udeleženci prometnih nesreč med starostjo 20 in 34 let.
+udeleženci prometnih nesreč med starostjo 21 in 30 let.
+![NajOgrozenciStarost](https://github.com/UrhPercic/PR22UMZ/assets/56612694/2229aab7-f74a-4781-ba30-980837850f58)
 
-![NajOgrozenciStarost](https://user-images.githubusercontent.com/56612694/232814913-0c376f3b-fb47-4b09-b323-09102f905170.png)
+2.2. Ugotiili smo, da je za skoraj polovico več udeležencev v prometnih nesrečah v Sloveniji med letom 2009 in 2022 bilo moškega spola.
 
-2.2. Ugotiili smo, da je za skoraj polovico več udeležencev v prometnih nesrečah v Sloveniji med letom 2009 in 2022 bilo ženskega spola.
+![NajOgrozen![NajOgrozenciSpol](https://github.com/UrhPercic/PR22UMZ/assets/56612694/aa2e8b1a-1594-4e3e-8aee-927ebed17325)
 
-![NajOgrozenciSpol](https://user-images.githubusercontent.com/56612694/232814977-f073b1e6-81b7-4b42-91f4-c7b57e3f0f87.png)
 
 2.3. Glede na vrsto udeležencev v prometnih nesrečah je bilo daleč največ udeležencev v voznikov osebnih avtomobilov, voznikov tovornih vozil ter potnikov.
 
