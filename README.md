@@ -36,7 +36,7 @@ Nadaljnja analiza podatkov je pokazala, da so najpogostejši povzročitelji prom
 
 2.3.  Iz naše raziskave smo ugotovili, da so moški okoli 75% časa povzročitelji prometnih nesreč, prav tako pa so večkrat le udeleženi v prometne nesreče (okoli 65%). 
 
-![NajPovzrociteljiSpol](https://github.com/UrhPercic/PR22UMZ/assets/56612694/f07aa5c4-f7f8-4731-b06b-8d0e9617d542)
+![najPovzrocitelji](https://github.com/UrhPercic/PR22UMZ/assets/56612694/4c560912-6702-4c38-a525-408330798bcf)
 ![NajOgrozenciSpol](https://github.com/UrhPercic/PR22UMZ/assets/56612694/a22c6ee5-2877-48e5-87fb-08a1410eee23)
 
 2.4.  Daleč največ vrst udeležencev v prometnih nesrečah je bilo osebnih avtomobilov, nato vozniki tovornega vozila, potniki, ostalo, kolesarji, vozniki motornega kolesa. Iz podatkov lahko vidimo, da so osebni avtomobili najpogostejši udeleženci prometnih nesreč v Sloveniji. Vozniki osebnih avtomobilov predstavljajo največjo skupino udeležencev, kar ni presenetljivo, saj je ta vrsta vozila najbolj razširjena v Sloveniji. Sledijo jim vozniki tovornih vozil, ki so pogosto prisotni na naših cestah zaradi dejstva, da Slovenija leži na pomembni tranzitni poti med zahodno Evropo in vzhodno Evropo. Prav tako so pogosto prisotni tudi potniki, ki potujejo z osebnimi avtomobili ali tovornimi vozili. Kolesarji in vozniki motornih koles so manjši delež v prometnih nesrečah, vendar pa so zaradi svoje ranljivosti bolj izpostavljeni tveganju resnih poškodb ali smrti.
